@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/villagebg"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Garm Panchayat: Igniting the Flames of Rural Empowerment"
+            android:textColor="#F8F8F8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextProblemDescription"
+            android:layout_width="372dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#D9D9D9"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+
+            android:padding="8dp"
+            android:text="Enter the Suggestions"
+            android:textColor="#F8F8F8"
+            android:textColorHint="#D9D9D9" />
+
+    </LinearLayout>
+
+</RelativeLayout>

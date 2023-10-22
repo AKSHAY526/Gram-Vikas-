@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/schemes"
+    tools:context=".schemes"
+    android:background="@color/lightWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:id="@+id/back_pressed"
+            android:padding="15dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Schemes"
+    android:textColor="@color/black"
+    android:textSize="30dp"
+    android:textAllCaps="true"
+    android:padding="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/dharani"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/rythubima"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/task"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/softnet"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/wehub"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/thub"
+            android:layout_margin="20dp">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#00000000"
+                android:text="click here"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
